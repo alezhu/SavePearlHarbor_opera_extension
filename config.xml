@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:savepearlharbor-extension" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:savepearlharbor-extension" version="1.0.1">
   <name>SavePearlHarbor</name>
   <description xml:lang="en">Sometimes provides access to publications on Habrahabr.ru, which it's  authors moved to drafts</description>
   <description xml:lang="ru">Иногда дает доступ к публикациям на Habrahabr.ru, которые авторы переместили в черновики</description>

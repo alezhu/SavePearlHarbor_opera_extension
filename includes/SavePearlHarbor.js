@@ -1,7 +1,11 @@
+// ==UserScript==
+// @include http://habrahabr.ru/*
+// @include https://habrahabr.ru/*
+// ==/UserScript==
 (function(){
 	var LOG = 0;
 	var PREFIX = 'SPH';
-	if(window.parent == window && /https?\:\/\/habrahabr\.ru/.test(window.location.href) ){	
+	if(window.parent == window ){	
 
 		window.addEventListener("DOMContentLoaded", function(){
 			if(LOG)opera.postError(PREFIX + ": Loaded. " + window.location.href);
